@@ -43,7 +43,9 @@
   <ItemGroup>
     <Compile Include="ArrayExtension.cs" />
     <Compile Include="CompareBySmth.cs" />
-    <Compile Include="ICriterion.cs" />
+    <Compile Include="ICompareCriterion.cs" />
+    <Compile Include="IIndexCriterion.cs" />
+    <Compile Include="IndexCriterion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

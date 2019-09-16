@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-    public class CompareBySmth : ICriterion
+    public class CompareBySmth : ICompareCriterion
     {
         public Boolean CompareNumbers(string b1, string b2)
         {

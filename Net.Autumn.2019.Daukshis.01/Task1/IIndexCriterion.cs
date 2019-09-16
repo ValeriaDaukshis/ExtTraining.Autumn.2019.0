@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-    public interface ICriterion
+    public interface IIndexCriterion
     {
-        Boolean CompareNumbers(string b1, string b2);
+        int EachIndexStep(int step);
     }
 }
